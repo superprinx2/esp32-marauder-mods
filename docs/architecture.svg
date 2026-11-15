@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="360" viewBox="0 0 860 360" role="img" aria-label="Remote Web architecture">
+  <rect width="860" height="360" fill="#0b0f13"/>
+  <style>
+    .lbl{font-family:system-ui,Arial,sans-serif;fill:#e6edf3}
+    .mut{font-family:system-ui,Arial,sans-serif;fill:#8b98a5}
+    .mono{font-family:Consolas,monospace;fill:#39d353}
+    .card{fill:#151b22;stroke:#263039;stroke-width:1.5}
+  </style>
+  <text x="430" y="34" text-anchor="middle" class="lbl" font-size="20" font-weight="bold">Control remoto por WiFi — como funciona</text>
+
+  <!-- Phone -->
+  <rect x="40" y="90" width="150" height="210" rx="18" class="card"/>
+  <rect x="58" y="112" width="114" height="150" rx="6" fill="#0d1218" stroke="#263039"/>
+  <text x="115" y="138" text-anchor="middle" class="lbl" font-size="12">Marauder</text>
+  <text x="115" y="154" text-anchor="middle" class="lbl" font-size="12">Remote .apk</text>
+  <rect x="70" y="168" width="90" height="16" rx="4" fill="#151b22" stroke="#39d353"/>
+  <rect x="70" y="190" width="90" height="16" rx="4" fill="#151b22" stroke="#263039"/>
+  <rect x="70" y="212" width="90" height="16" rx="4" fill="#151b22" stroke="#263039"/>
+  <text x="115" y="286" text-anchor="middle" class="mut" font-size="12">Tu celular</text>
+
+  <!-- WiFi link -->
+  <text x="300" y="150" text-anchor="middle" class="mono" font-size="13">WiFi AP</text>
+  <text x="300" y="168" text-anchor="middle" class="lbl" font-size="13">ESP32HACKER</text>
+  <text x="300" y="185" text-anchor="middle" class="mut" font-size="12">clave 123456789</text>
+  <path d="M195 205 H405" stroke="#39d353" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <polygon points="405,205 395,200 395,210" fill="#39d353"/>
+  <polygon points="195,205 205,200 205,210" fill="#39d353"/>
+  <text x="300" y="228" text-anchor="middle" class="mut" font-size="12">HTTP · 192.168.4.1</text>
+
+  <!-- ESP32 -->
+  <rect x="410" y="90" width="210" height="210" rx="14" class="card"/>
+  <text x="515" y="118" text-anchor="middle" class="lbl" font-size="14" font-weight="bold">ESP32 (Marauder)</text>
+  <rect x="432" y="132" width="166" height="40" rx="6" fill="#0d1218" stroke="#263039"/>
+  <text x="515" y="157" text-anchor="middle" class="lbl" font-size="12">AsyncWebServer :80</text>
+  <rect x="432" y="182" width="166" height="40" rx="6" fill="#0d1218" stroke="#263039"/>
+  <text x="515" y="207" text-anchor="middle" class="lbl" font-size="12">CLI runCommand()</text>
+  <rect x="432" y="232" width="166" height="46" rx="6" fill="#0d1218" stroke="#263039"/>
+  <text x="515" y="251" text-anchor="middle" class="lbl" font-size="12">WiFi / BT radio</text>
+  <text x="515" y="268" text-anchor="middle" class="mut" font-size="11">escaneos · ataques · sniff</text>
+
+  <!-- Arrow to results -->
+  <path d="M625 195 H700" stroke="#8b98a5" stroke-width="2"/>
+  <polygon points="700,195 690,190 690,200" fill="#8b98a5"/>
+  <rect x="705" y="150" width="120" height="96" rx="10" class="card"/>
+  <text x="765" y="178" text-anchor="middle" class="lbl" font-size="12">Resultados</text>
+  <text x="765" y="198" text-anchor="middle" class="mut" font-size="11">APs, stations,</text>
+  <text x="765" y="214" text-anchor="middle" class="mut" font-size="11">estado</text>
+  <text x="765" y="234" text-anchor="middle" class="mono" font-size="11">/aps /sta</text>
+
+  <!-- Note -->
+  <rect x="40" y="316" width="785" height="30" rx="8" fill="#1a1410" stroke="#8a5a2b"/>
+  <text x="52" y="336" class="lbl" font-size="12.5">⚠ Una sola antena: al iniciar un escaneo/ataque WiFi, el celular se desconecta hasta que pares. Bluetooth y config funcionan conectado.</text>
+</svg>

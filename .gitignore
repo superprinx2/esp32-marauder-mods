@@ -1,0 +1,16 @@
+# build artifacts / temporary
+esp32_marauder/build/
+build_out/
+android/out/
+*.log
+*.tr
+# heavy upstream assets (all available in upstream justcallmekoko/ESP32Marauder)
+pictures/
+mechanical/
+FlashFiles/
+PCBs/
+C5_Py_Flasher_for_adapter/
+C5_Py_Flasher_for_mini_v3/
+C5_Py_Flasher_for_v8/
+esp32_marauder/PreviousVersions/
+.github/workflows/

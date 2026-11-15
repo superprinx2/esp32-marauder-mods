@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="620" viewBox="0 0 360 620" role="img" aria-label="Remote web control panel">
+  <defs><clipPath id="scr"><rect x="20" y="20" width="320" height="580" rx="26"/></clipPath></defs>
+  <rect x="6" y="6" width="348" height="608" rx="40" fill="#05080a" stroke="#1d2a33" stroke-width="3"/>
+  <g clip-path="url(#scr)">
+    <rect x="20" y="20" width="320" height="580" fill="#070b0e"/>
+    <!-- header -->
+    <rect x="20" y="20" width="320" height="56" fill="#0b141a"/>
+    <line x1="20" y1="76" x2="340" y2="76" stroke="#1d2a33"/>
+    <g transform="translate(34,30)">
+      <g fill="#eef3f6" transform="scale(.42)"><g transform="rotate(45 50 50)"><rect x="16" y="45" width="68" height="8" rx="4"/><circle cx="16" cy="45" r="6"/><circle cx="16" cy="53" r="6"/><circle cx="84" cy="45" r="6"/><circle cx="84" cy="53" r="6"/></g><g transform="rotate(-45 50 50)"><rect x="16" y="45" width="68" height="8" rx="4"/><circle cx="16" cy="45" r="6"/><circle cx="16" cy="53" r="6"/><circle cx="84" cy="45" r="6"/><circle cx="84" cy="53" r="6"/></g></g>
+      <g fill="#f5f8fa" transform="scale(.42)"><rect x="36" y="48" width="28" height="30" rx="9"/><circle cx="50" cy="44" r="23"/></g>
+      <circle cx="17.6" cy="17.6" r="3.4" fill="#070b0e"/><circle cx="24.4" cy="17.6" r="4" fill="#070b0e"/>
+      <rect x="17" y="26" width="7.6" height="4.6" rx="1" fill="#070b0e"/>
+    </g>
+    <text x="70" y="44" fill="#e7f0f4" font-family="system-ui,Arial" font-size="14" font-weight="700">ESP32 MARAUDER</text>
+    <text x="70" y="59" fill="#7f93a0" font-family="system-ui,Arial" font-size="9" letter-spacing="2">REMOTE CONSOLE</text>
+    <circle cx="300" cy="48" r="5" fill="#39d353"/><text x="310" y="52" fill="#7f93a0" font-family="system-ui,Arial" font-size="10">en linea</text>
+    <!-- stat chips -->
+    <g font-family="system-ui,Arial">
+      <g transform="translate(32,90)"><rect width="52" height="46" rx="10" fill="#111a21" stroke="#1d2a33"/><text x="26" y="22" text-anchor="middle" fill="#39d353" font-size="15" font-weight="700">IDLE</text><text x="26" y="37" text-anchor="middle" fill="#7f93a0" font-size="8">ESTADO</text></g>
+      <g transform="translate(90,90)"><rect width="52" height="46" rx="10" fill="#111a21" stroke="#1d2a33"/><text x="26" y="22" text-anchor="middle" fill="#e7f0f4" font-size="15" font-weight="700">1</text><text x="26" y="37" text-anchor="middle" fill="#7f93a0" font-size="8">CONEX.</text></g>
+      <g transform="translate(148,90)"><rect width="52" height="46" rx="10" fill="#111a21" stroke="#1d2a33"/><text x="26" y="22" text-anchor="middle" fill="#e7f0f4" font-size="15" font-weight="700">14</text><text x="26" y="37" text-anchor="middle" fill="#7f93a0" font-size="8">APS</text></g>
+      <g transform="translate(206,90)"><rect width="52" height="46" rx="10" fill="#111a21" stroke="#1d2a33"/><text x="26" y="22" text-anchor="middle" fill="#e7f0f4" font-size="15" font-weight="700">31</text><text x="26" y="37" text-anchor="middle" fill="#7f93a0" font-size="8">STATIONS</text></g>
+      <g transform="translate(264,90)"><rect width="52" height="46" rx="10" fill="#111a21" stroke="#1d2a33"/><text x="26" y="22" text-anchor="middle" fill="#e7f0f4" font-size="15" font-weight="700">118</text><text x="26" y="37" text-anchor="middle" fill="#7f93a0" font-size="8">RAM KB</text></g>
+    </g>
+    <!-- tabs -->
+    <g font-family="system-ui,Arial" font-size="11" font-weight="700">
+      <rect x="32" y="148" width="92" height="30" rx="9" fill="#0d141a" stroke="#39d353"/><text x="78" y="167" text-anchor="middle" fill="#e7f0f4">📡 WiFi</text>
+      <rect x="132" y="148" width="92" height="30" rx="9" fill="#0d141a" stroke="#1d2a33"/><text x="178" y="167" text-anchor="middle" fill="#7f93a0">🔵 BT</text>
+      <rect x="232" y="148" width="84" height="30" rx="9" fill="#0d141a" stroke="#1d2a33"/><text x="274" y="167" text-anchor="middle" fill="#7f93a0">📊 Res.</text>
+    </g>
+    <!-- buttons -->
+    <g font-family="system-ui,Arial" font-size="12" fill="#e7f0f4">
+      <g transform="translate(32,192)"><rect width="138" height="42" rx="11" fill="#111a21" stroke="#1d2a33"/><text x="14" y="26" font-size="16">📡</text><text x="38" y="26">Scan APs</text></g>
+      <g transform="translate(178,192)"><rect width="138" height="42" rx="11" fill="#111a21" stroke="#1d2a33"/><text x="14" y="26" font-size="16">🛰️</text><text x="38" y="26">Scan Stations</text></g>
+      <g transform="translate(32,242)"><rect width="138" height="42" rx="11" fill="#111a21" stroke="#1d2a33"/><text x="14" y="26" font-size="16">👂</text><text x="38" y="26">Sniff Beacon</text></g>
+      <g transform="translate(178,242)"><rect width="138" height="42" rx="11" fill="#111a21" stroke="#1d2a33"/><text x="14" y="26" font-size="16">🚨</text><text x="38" y="26">Sniff Deauth</text></g>
+    </g>
+    <g transform="translate(32,296)"><rect width="284" height="40" rx="11" fill="#111a21" stroke="#7a2f2f"/><text x="142" y="25" text-anchor="middle" fill="#ffb3b3" font-family="system-ui,Arial" font-size="12" font-weight="700">⏹️  STOP · parar todo</text></g>
+    <!-- terminal -->
+    <g transform="translate(32,350)">
+      <rect width="284" height="214" rx="12" fill="#05090c" stroke="#1d2a33"/>
+      <rect width="284" height="26" rx="12" fill="#05090c"/><line x1="0" y1="26" x2="284" y2="26" stroke="#1d2a33"/>
+      <circle cx="16" cy="13" r="4" fill="#ff5f56"/><circle cx="30" cy="13" r="4" fill="#ffbd2e"/><circle cx="44" cy="13" r="4" fill="#27c93f"/>
+      <text x="60" y="17" fill="#7f93a0" font-family="ui-monospace,Consolas,monospace" font-size="10">marauder@esp32</text>
+      <g font-family="ui-monospace,Consolas,monospace" font-size="10.5">
+        <text x="12" y="48" fill="#39d353">22:41:03 &gt; <tspan fill="#bfe9c9">scanap</tspan></text>
+        <text x="12" y="66" fill="#bfe9c9">  OK: scanap</text>
+        <text x="12" y="88" fill="#7f93a0">── /aps ──</text>
+        <text x="12" y="106" fill="#bfe9c9">0) MOVISTAR_1A2B ch6 -61dBm</text>
+        <text x="12" y="123" fill="#bfe9c9">1) LUCIANI3 ch11 -48dBm</text>
+        <text x="12" y="140" fill="#bfe9c9">2) ESP32HACKER ch1 -30dBm</text>
+        <text x="12" y="157" fill="#bfe9c9">3) TP-LINK_55F0 ch1 -72dBm</text>
+        <text x="12" y="179" fill="#39d353">22:41:20 &gt; <tspan fill="#bfe9c9">blespam -t all</tspan></text>
+        <text x="12" y="197" fill="#bfe9c9">  OK: blespam -t all</text>
+      </g>
+    </g>
+  </g>
+</svg>
